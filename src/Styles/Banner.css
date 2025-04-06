@@ -1,0 +1,6 @@
+.bg-gradient-custom {
+    background: linear-gradient(to top, #1e293b, transparent); /* Slate-900 to transparent gradient */
+  }
+  .md-h-320px {
+    height: 400px;
+  }

@@ -1,0 +1,39 @@
+
+.genre-item:hover{
+    background-color: #bcb2b2;
+    transition: transform 0.8s ease-out;
+    box-shadow: 0px 4px 6px white; 
+    padding: 1rem; 
+    margin-bottom: 3rem;
+    background-color: white; 
+    border-radius: 0.25rem;
+
+}
+.genre-image {
+    transition: transform 0.3s ease-out;
+}
+
+.genre-item:hover .genre-image {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgb(66, 64, 64); 
+    
+    background-color: white; 
+    border-radius: 0.25rem;
+
+}
+
+.genre-item:hover h3 {
+    font-weight: bold;
+    transition: transform 0.8s ease-out;
+}
+
+/* Active state styling for items */
+.genre-item.active {
+    background-color: #ffffff; /* Light grey background for active item */
+}
+
+.genre-item.active .genre-image {
+    transform: scale(1.05); /* Image scaling effect for active genre */
+}
+
+/* Optional: You can adjust the scale effect or background color to your needs */

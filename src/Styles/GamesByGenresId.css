@@ -1,0 +1,40 @@
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure each card takes full height of its grid cell */
+    justify-content: space-between;
+  }
+  
+  .game-image {
+    object-fit: cover;
+    height: 200px; /* Fixed height for images to ensure consistency */
+    width: 100%;   /* Make the image fill the container */
+    border-radius: 0.375rem; /* Rounded corners for image */
+  }
+  
+  .game-card h2 {
+    overflow: hidden; /* In case long text */
+  }
+  
+  .game-card .fs-5 {
+    font-size: 1rem;
+  }
+  
+  .game-card .fw-bold {
+    font-weight: bold;
+  }
+  
+  .game-card .badge {
+    font-size: 0.875rem; /* Slightly smaller badge font */
+  }
+  
+.game-card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .game-image {
+    object-fit: cover;
+    height: 80%;
+  }
