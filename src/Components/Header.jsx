@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./../assests/logo.png";
 import GenreList from "../Components/GenreList"; 
 import { useNavigate } from 'react-router-dom';
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/clerk-react';
+import { SignedIn,UserButton } from '@clerk/clerk-react';
 
 const Header = () => {
   const navigate = useNavigate();

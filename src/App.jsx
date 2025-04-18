@@ -17,7 +17,6 @@ import Bookmark from './Components/Bookmark';
 
 const App = () => {
   return (
-    // <ClerkProvider frontendApi={clerkFrontendApi}>
       <Router>
         <div className="min-vh-100">
           <Header />
